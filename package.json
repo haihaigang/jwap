@@ -1,0 +1,18 @@
+{
+  "name": "jWap",
+  "version": "0.1.0",
+  "description": "前端开发实例",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-concat": "~0.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hgwang",
+  "license": "MIT"
+}

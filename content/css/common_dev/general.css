@@ -1,0 +1,99 @@
+/**
+ * 通用样式
+ * 定义通用的字体、大小、颜色，链接的效果，一些常用的样式如浮动、对齐方式、特定字体颜色...
+ * 这里可以扩充任意的样式，但不推荐定义有特殊关键字的样式如.title,.name,.value等，
+ * 因为这种关键字很常用，一般如要定义这种关键字最好在通过模块来限定如.account .title{}
+ */
+html {
+    font-size: 100px;
+}
+body {
+    font: 14px/1.5 Arial, "Microsoft Yahei";
+    min-width: 320px;
+    max-width: 480px;
+    margin: 0 auto;
+    color: #4b4b4b;
+    background-color: #fff;
+    position: relative;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 -65px;
+    -webkit-user-select: none;
+}
+a {
+    color: inherit;
+}
+@media only all and (max-width:640px) {
+
+    /* styles for iPhone/Android landscape (and really narrow browser windows) */
+    body, input, textarea {
+        font-size: 14px;
+    }
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.extra {
+    position: relative;
+}
+.f_x {
+    font-size: 2em;
+}
+.f_l {
+    font-size: 1.5em;
+}
+.f_b {
+    font-size: 1.25em;
+}
+.f_n {
+    font-size: 1em;
+}
+.f_s {
+    font-size: .8em;
+}
+.t_r {
+    text-align: right;
+}
+.t_l {
+    text-align: left;
+}
+.p_t_0 {
+    padding-top: 0;
+}
+.p_b_0 {
+    padding-bottom: 0;
+}
+.c_red {
+    color: #ff484f;
+}
+.c_gray {
+    color: #808080;
+}
+.f_red {
+    color: #806d5a;
+}
+.hidden {
+    overflow: hidden;
+}
+#noscript {
+    background: #EA6201;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #cf5702;
+    padding: 5px 0px;
+}
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
